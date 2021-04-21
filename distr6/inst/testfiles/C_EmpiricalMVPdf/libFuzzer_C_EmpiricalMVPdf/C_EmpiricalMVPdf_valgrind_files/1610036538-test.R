@@ -1,0 +1,3 @@
+testlist <- list(data = structure(c(4.0744441183336e-310, 4.0744441183336e-310,  3.79212874880738e+146, 3.79212874880738e+146, 3.7921295152152e+146,  3.79243614920104e+146, 3.87759666358548e-26, NaN, NaN, 2.75911738801775e-306,  2.09635951636138e-289, 1.24377894657041e-304), .Dim = c(6L, 2L )), x = structure(NaN, .Dim = c(1L, 1L)))
+result <- do.call(distr6:::C_EmpiricalMVPdf,testlist)
+str(result)

@@ -1,0 +1,3 @@
+testlist <- list(x = NA_integer_, y = c(-741092397L, -741092397L, -741092397L,  -741092397L, -741092397L, -741092397L, -741092397L, -741092397L,  -741092397L, -741092397L, -738208002L, -524321L, -2745809L, -452984832L,  0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L,  0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L,  0L, 0L, 0L))
+result <- do.call(diffrprojects:::dist_mat_absolute,testlist)
+str(result)

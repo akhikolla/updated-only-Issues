@@ -1,0 +1,3 @@
+testlist <- list(ends = integer(0), pts = integer(0), starts = c(16777216L,  0L, 905969664L, 682962941L, 539846913L, 7024515L, 224936588L,  -708726321L, -1241099870L, 2023466445L, -303024932L, -1753868654L,  1644490169L, -197011882L, 1617190532L, 2032822865L, 1784108655L,  -1444216832L, 0L, 0L, 0L), members = NULL, total_members = 0L)
+result <- do.call(IntervalSurgeon:::rcpp_pile,testlist)
+str(result)

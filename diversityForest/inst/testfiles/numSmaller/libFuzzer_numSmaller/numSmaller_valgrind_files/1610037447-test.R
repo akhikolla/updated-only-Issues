@@ -1,0 +1,3 @@
+testlist <- list(reference = numeric(0), values = c(-3.38087421119099e+221,  5.12444887866541e-320, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN,  NaN, -4.38847399816601e+305, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,  0, 0, 0, 0, 0, 0, 0))
+result <- do.call(diversityForest:::numSmaller,testlist)
+str(result)

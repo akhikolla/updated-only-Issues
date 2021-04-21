@@ -1,0 +1,3 @@
+testlist <- list(x = c(NaN, NA, 4.10413909751076e-207, -2.49804481346096e-127,  3.78977184887358e-205, 4.10413909751076e-207, -1.4457550487174e+304,  4.10413909751076e-207, 4.10413909751076e-207, NaN))
+result <- do.call(diceR:::connectivity_matrix,testlist)
+str(result)

@@ -1,0 +1,3 @@
+testlist <- list(holes = c(-741092397L, -741092397L, -741092397L, -741092397L,  -741092397L, -752221997L, -741092397L, -741092397L, -741092608L,  0L, 0L, 16777216L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L,  0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L,  0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L), numholes = integer(0),      x = numeric(0), y = numeric(0))
+result <- do.call(decido:::earcut_cpp,testlist)
+str(result)

@@ -1,0 +1,3 @@
+testlist <- list(end = NULL, start = NULL, x = structure(c(4.65661357924452e-10,  2.36248883607306e-153, 1.82541784356087e+32, 3.80317182893436e-311,  9024051742.03442, 6.95350821168568e-310, 7.9443032980428e+218,  2.75859456371839e-311, 2.32903262699368e+96, 0, 0, 0, 0, 0, 0,  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), .Dim = c(5L,  7L)), segment_end = structure(0, .Dim = c(1L, 1L)), segment_start = structure(0, .Dim = c(1L,  1L)))
+result <- do.call(dynutils::project_to_segments,testlist)
+str(result)

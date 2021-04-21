@@ -1,0 +1,3 @@
+testlist <- list(rates = numeric(0), thresholds = numeric(0), x = c(NaN,  -5.75032878056942e+243, -1.13562063540755e-256, 1.07706310793392e-321,  0, 0, 0, 0, 0))
+result <- do.call(grattan::IncomeTax,testlist)
+str(result)

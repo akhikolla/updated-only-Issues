@@ -1,0 +1,3 @@
+testlist <- list(x = structure(c(1.29849269277858e+219, 1.29849269277858e+219,  1.29849269277742e+219, 1.29849269277858e+219, 1.29849269277861e+219,  5.69618907523204e-304, 1.9097962123134e-313, 0, 0), .Dim = c(3L,  3L)))
+result <- do.call(borrowr:::matchesToCor,testlist)
+str(result)

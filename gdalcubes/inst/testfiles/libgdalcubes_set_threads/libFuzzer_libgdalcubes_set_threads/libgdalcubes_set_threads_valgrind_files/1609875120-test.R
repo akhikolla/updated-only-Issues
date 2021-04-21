@@ -1,0 +1,3 @@
+testlist <- list(n = c(28786615L, NA, 6141945L, 16777215L, -33256L, -191L,  -1L, -209L, 791621423L, 1566383104L, 6106927L, 791621423L, 791621423L,  791621559L, -117374977L, -130L, 419430399L, 791621423L, 790364343L,  1107230975L))
+result <- do.call(gdalcubes:::libgdalcubes_set_threads,testlist)
+str(result)

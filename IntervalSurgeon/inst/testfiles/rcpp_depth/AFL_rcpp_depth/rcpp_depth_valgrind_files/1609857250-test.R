@@ -1,0 +1,3 @@
+testlist <- list(pts = integer(0), ends = NULL, starts = NULL, sorted_ends = c(0L,  0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L,  0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L,  0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L,  0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L,  0L, 0L, 0L, 0L), sorted_starts = c(0L, -1627389952L, 682962941L,  546746628L, 599542L, 1800501216L, 1649393244L, -1712958485L,  -1313178345L, 1470710473L, 2108708770L, -1965616612L, -533569700L,  -771330099L, 853834136L, 2131378914L, -1261966754L, -129171080L,  -642760964L, 779827246L, 1878602521L))
+result <- do.call(IntervalSurgeon:::rcpp_depth,testlist)
+str(result)

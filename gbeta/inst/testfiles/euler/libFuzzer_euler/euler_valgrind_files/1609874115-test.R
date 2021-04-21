@@ -1,0 +1,3 @@
+testlist <- list(c = NaN, d = NaN, abs = NULL, rel = NULL, kappa = 4.77830972673648e-299,      q = c(-1.02357115789628e+270, 0, 0, 0, 0, 0, 0, 0, 0, 0,      0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,      0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,      0, 0, 0, 0, 0, 0), subdiv = 0L, tau = NaN, eps_abs = 0, eps_rel = 0)
+result <- do.call(gbeta:::euler,testlist)
+str(result)

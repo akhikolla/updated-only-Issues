@@ -1,0 +1,3 @@
+testlist <- list(id = integer(0), x = c(NaN, NaN, NaN, NaN, 0, NaN, NaN,  NaN, NaN, 1.390671161567e-309, 0, 0, 0, 0, 0, 0, 0, 0, 0, NaN,  -2.08809742975965e-53, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,  0, 0, 0, 0, 0, 0, 0, 0, 0), y = numeric(0))
+result <- do.call(ggforce:::enclose_points,testlist)
+str(result)

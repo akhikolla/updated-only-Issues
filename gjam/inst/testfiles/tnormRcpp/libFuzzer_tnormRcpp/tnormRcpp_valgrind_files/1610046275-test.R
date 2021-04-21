@@ -1,0 +1,3 @@
+testlist <- list(hi = 1.62995977541998e-260, lo = 2.6461938652295e-260, mu = 2.64619386522857e-260,      sig = 2.6461938652295e-260)
+result <- do.call(gjam:::tnormRcpp,testlist)
+str(result)

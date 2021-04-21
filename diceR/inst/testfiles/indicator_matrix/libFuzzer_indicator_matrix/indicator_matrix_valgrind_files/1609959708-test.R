@@ -1,0 +1,3 @@
+testlist <- list(x = c(1.91374883209651e+214, 1.91374883209651e+214, 1.91374883209651e+214,  1.91374883209651e+214, 1.91374883209651e+214, 1.91374883209651e+214 ))
+result <- do.call(diceR:::indicator_matrix,testlist)
+str(result)

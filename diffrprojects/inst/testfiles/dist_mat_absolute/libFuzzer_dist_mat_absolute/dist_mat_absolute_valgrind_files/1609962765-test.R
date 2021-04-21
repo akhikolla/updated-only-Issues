@@ -1,0 +1,3 @@
+testlist <- list(x = c(-134225921L, -1L, -256L, 0L, -11534081L, -1L, -100673793L,  -524321L, -28929L, -1L, -2745809L, -436207617L, -1L, -2745809L,  -14146304L, 61439L, -1L, -1L, -702926849L, -14352384L, 15728639L,  65535L, NA, -539616721L, NA, -42L, 439353343L, -42L, -2049L,  -536870913L, -1L, -10752L, 61439L, -65460L, -6865L), y = c(0L,  0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L,  0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L,  0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L,  0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L,  0L, 0L, 0L))
+result <- do.call(diffrprojects:::dist_mat_absolute,testlist)
+str(result)

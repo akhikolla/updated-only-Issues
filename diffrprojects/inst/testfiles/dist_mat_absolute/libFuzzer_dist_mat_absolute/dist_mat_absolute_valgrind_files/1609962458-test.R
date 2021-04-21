@@ -1,0 +1,3 @@
+testlist <- list(x = c(711158895L, 1936017505L, 1852075109L, 690508613L,  1481646179L, 1869509492L, 699379631L, -1347440721L, -1347440721L,  -1347440721L, -1350434816L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L,  0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L,  0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L), y = integer(0))
+result <- do.call(diffrprojects:::dist_mat_absolute,testlist)
+str(result)

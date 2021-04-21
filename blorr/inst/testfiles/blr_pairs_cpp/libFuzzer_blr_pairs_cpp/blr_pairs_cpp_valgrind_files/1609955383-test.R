@@ -1,0 +1,3 @@
+testlist <- list(x = c(NaN, 7.7877585047752e-308, 0, 0, 0, 0, 0, 0, 0, 0,  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ), y = numeric(0))
+result <- do.call(blorr:::blr_pairs_cpp,testlist)
+str(result)
